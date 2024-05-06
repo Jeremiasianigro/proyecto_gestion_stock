@@ -1,0 +1,41 @@
+•	Quiere un sistema que genere una base de datos de clientes, materiales y ordenes de trabajo. 
+•	Que pueda hacer un presupuesto membretado con los valores de mano de obra y materiales.
+•	Que pueda mandar ese presupuesto a través de correo electrónico al cliente.
+•	Que lleve el control de gastos (ingreso-egreso).
+lista de objetos:
+
+1 cliente
+- id
+- fecha ingreso
+- nombre
+- cuil
+- cbu
+
+2 Insumo/MO
+- id_ OT
+- concepto 
+- importe
+- comprobante 
+
+3 orden de trabajo
+- id_OT
+- cliente (instanciado)
+- insumo (instanciado)
+- total presup.
+
+4 movimiento
+- fecha
+- concepto 
+- importe
+
+5 libro diario
+- fecha 
+- movimientos (instanciados)
+- subtotales
+ 
+6 libro mayor
+- libro diario (instanciado)
+- totales 
+
+7 datosDB
+- gestion de json.
