@@ -37,5 +37,8 @@ lista de objetos:
 - libro diario (instanciado)
 - totales 
 
-7 datosDB
+7 correo
+- (buscar libreria)
+
+8 datosDB
 - gestion de json.
