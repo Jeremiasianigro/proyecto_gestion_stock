@@ -76,4 +76,4 @@ class insumo
     }
 
     
-}
+} // fin de la clase
