@@ -17,7 +17,7 @@ lista de objetos:
 - importe
 - comprobante 
 
-3 orden de trabajo
+3 Presupuesto
 - id_OT
 - cliente (instanciado)
 - insumo (instanciado)
@@ -42,3 +42,7 @@ lista de objetos:
 
 8 datosDB
 - gestion de json.
+
+
+------------
+Hoy 07/05 hicimos la class presupuesto. Hay q hacer todas las funciones

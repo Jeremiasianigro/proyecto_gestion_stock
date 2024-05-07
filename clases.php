@@ -45,22 +45,22 @@ class cliente
 
 class insumo
 {
-    protected $id_ot;
+    protected $id_presup;
     protected $concepto;
     protected $importe;
     protected $comprobante;
 
-    function __construct ($id_ot,$insumo)
+    function __construct ($id_presup,$insumo)
     {
-        $this->id_ot = $id_ot;
+        $this->id_presup = $id_presup;
         $this->concepto = $insumo ["concepto"];
         $this->importe = $insumo ["importe"];
         $this->comprobante = $insumo ["comprobante"];
     }
     //GETTERS
-    function id_ot()
+    function id_presup()
     {
-        return $this->id_ot;
+        return $this->id_presup;
     }
     function concepto()
     {
@@ -77,3 +77,26 @@ class insumo
 
     
 } // fin de la clase
+class presupuesto
+{
+
+    private $datosDB;
+    protected $id_presup;
+    protected $cliente;
+    protected $insumos=[];
+    protected $total;
+
+    function __construct($cuil,$insumos)
+    {
+        
+    }
+}
+
+class datosDB
+{
+    function leer_tabla_clientes()
+    {
+        $textoDelArchivo = file_get_contents("tabla_clientes.json");
+        return json_decode($textoDelArchivo,true);
+    }
+}

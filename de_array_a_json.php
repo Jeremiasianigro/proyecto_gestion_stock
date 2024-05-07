@@ -1,0 +1,28 @@
+<?php
+/*
+$clientes = [
+    [
+    "id"=>1,
+    "nombre"=>"Pablo Pugliese",
+    "fecha_ingreso"=>"2020-04-17",
+    "cuil"=>"20-31163877-8",
+    "cbu"=>12345656987987,],
+    [
+    "id"=>2,
+    "nombre"=>"Jeremias Ianigro",
+    "fecha_ingreso"=>"2005-05-25",
+    "cuil"=>"20-32171890-7",
+    "cbu"=>12345656984444,],
+    [
+        "id"=>3,
+        "nombre"=>"Sebastian Toyos",
+        "fecha_ingreso"=>"2019-11-22",
+        "cuil"=>"20-30899144-8",
+        "cbu"=>12345656985555,]
+];
+
+
+
+
+file_put_contents("tabla_clientes.json",json_encode($clientes,JSON_PRETTY_PRINT));
+*/
