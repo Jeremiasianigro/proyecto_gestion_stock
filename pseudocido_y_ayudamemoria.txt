@@ -43,6 +43,12 @@ lista de objetos:
 8 datosDB
 - gestion de json.
 
+los presupuestos tienen 4 estados:
+- borrador (estado inicial del 0 a la nada) (insumos variables)
+- aprobado (estamos en la obra) (isumos variables)
+- para facturar (presupuesto final con el trabajo terminado) (isumos no variables)
+- facturados (trabajo ya cobrado) (isumos no variables)
 
-------------
-Hoy 07/05 hicimos la class presupuesto. Hay q hacer todas las funciones
+los insumos tienen 2 estados
+- variable
+- no variable

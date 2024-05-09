@@ -1,0 +1,23 @@
+[
+    {
+        "id_presup": 1,
+        "estado": "borrador",
+        "cuil": "20-30899144-8",
+        "nombre": "Sebastian Toyos",
+        "total": 10000
+    },
+    {
+        "id_presup": 2,
+        "estado": "borrador",
+        "cuil": "20-32171890-7",
+        "nombre": "Jeremias Ianigro",
+        "total": 20000
+    },
+    {
+        "id_presup": 1,
+        "estado": "borrador",
+        "cuil": "20-31163877-8",
+        "nombre": "Pablo Pugliese",
+        "total": 30000
+    }
+]

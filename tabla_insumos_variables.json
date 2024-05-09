@@ -1,0 +1,26 @@
+[
+    {
+        "id_presup": 1,
+        "concepto": "manguera",
+        "importe": 10000,
+        "comprobante": true
+    },
+    {
+        "id_presup": 1,
+        "concepto": "clavos",
+        "importe": 500,
+        "comprobante": false
+    },
+    {
+        "id_presup": 1,
+        "concepto": "chapa",
+        "importe": 5000,
+        "comprobante": false
+    },
+    {
+        "id_presup": 1,
+        "concepto": "garrafa",
+        "importe": 70000,
+        "comprobante": true
+    }
+]
